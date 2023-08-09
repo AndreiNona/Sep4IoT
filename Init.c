@@ -1,4 +1,4 @@
-﻿//AVR
+//AVR
 #include <stdio.h>
 #include <avr/io.h>
 
@@ -28,9 +28,6 @@ void initialise(void) // Initialise
 {
  initializeEventGroup();
  createUpLinkMessageBuffer();
- createDownLinkMessageBuffer();
- 
-
 }
 
 void create_tasks(void) //Tasks
